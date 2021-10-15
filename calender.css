@@ -1,0 +1,40 @@
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background-color: rgb(139,0 ,0);
+    text-align: auto;
+    color: white;
+  
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size:2.5em;
+  }
+
+  /* Table Styles */
+table.cal{
+    background: white;
+    border: 10px outset rgb(139,2,1);
+    border-collapse: collapse;
+    
+    width: 100%;
+ 
+ }
+ table.cal{
+     text-align: center;
+ }
+
+ body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ html{
+     background-image: url(fireworks-sydney-harbour.jpeg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+ }
